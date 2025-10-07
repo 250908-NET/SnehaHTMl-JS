@@ -92,3 +92,9 @@ body {
         max-width: 100px;
     }
 }
+.iteminput{
+    padding: 10px 10px;
+    border-radius: 2px;
+    background-color: #4dcb52;
+
+}
