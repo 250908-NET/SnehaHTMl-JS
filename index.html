@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Exercise</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-</head>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        
-        <img src="https://t4.ftcdn.net/jpg/12/76/99/91/240_F_1276999182_cpNapU82CeRQAw5AGiJSC70exFVuUbxg.jpg" alt="image">
-     
-    
-  </header>
+      <img
+        src="https://t4.ftcdn.net/jpg/12/76/99/91/240_F_1276999182_cpNapU82CeRQAw5AGiJSC70exFVuUbxg.jpg"
+        alt="image"
+      />
+    </header>
     <main class="aboutme">
-
-        <h1> About Me</h1> 
-        <h2> Who I Am </h2>
-        <section>
-        <p> Hi! My name is Sneha. I am a life sciences professional transitioning into software engineering.
-                I enjoy learning new technologies, building web applications, and solving problems. Currently Im learning ASP.NET. I enjoying adding more technologies in to my skills.</p>
-
+      <h1>About Me</h1>
+      <h2>Who I Am</h2>
+      <section>
+        <p>
+          Hi! My name is Sneha. I am a life sciences professional transitioning
+          into software engineering. I enjoy learning new technologies, building
+          web applications, and solving problems. Currently Im learning ASP.NET.
+          I enjoying adding more technologies in to my skills.
+        </p>
       </section>
 
       <section class="hobbies">
         <h2>My Hobbies</h2>
 
         <ul>
-            <li>Programming and learning new frameworks</li>
-            <li>Reading science and yoga related books </li>
-            <li>Cooking new dishes</li>
-            <li>Spending time with my family</li>
-            <li>Watching triller movies</li>
+          <li>Programming and learning new frameworks</li>
+          <li>Reading science and yoga related books</li>
+          <li>Cooking new dishes</li>
+          <li>Spending time with my family</li>
+          <li>Watching triller movies</li>
         </ul>
       </section>
 
       <section>
         <h2>My favorite image</h2>
 
-        <img src="https://t3.ftcdn.net/jpg/09/19/97/14/240_F_919971476_3UdYK1VH9UzLDDdZV68RzuiwzoMNjCvq.jpg" alt =" image">
+        <img
+          src="https://t3.ftcdn.net/jpg/09/19/97/14/240_F_919971476_3UdYK1VH9UzLDDdZV68RzuiwzoMNjCvq.jpg"
+          alt=" image"
+        />
+      </section>
 
+      <section>
+        <h2>My favorite Foods</h2>
+        <input type="text" id="itemInput" placeholder="Enter an item" />
+        <button onclick="addItem()">Add Item</button>
+        <ul id="itemListDisplay"></ul>
+       
       </section>
     </main>
 
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
