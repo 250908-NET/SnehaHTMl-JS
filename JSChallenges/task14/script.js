@@ -14,6 +14,6 @@ addItemBtn.addEventListener("click", function(){
 });
 
 changeImgBtn.addEventListener("click", function(){
-    myImg.src= "dog.jpg";
+    myImg.src= "https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg";
     myImg.alt = "dog";
 });
