@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Square a Number</title>
+</head>
+<body>
+    <input type="number" id="number" placeholder="Enter a number" />
+    <button onclick="showSquare()"> Show square</button>
+
+    <script>
+        function showSquare(){
+            let num = document.getElementById("number").value;
+            if(num.trim()===""){
+                alert("Please enter a number");
+            }else{
+                let square = num*num; {
+  alert (" The square of " +  num  +  " is " + square);
+                }
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
